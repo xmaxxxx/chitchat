@@ -1,4 +1,4 @@
-//user
+
 <?php 
   session_start();
   include_once "php/config.php";
