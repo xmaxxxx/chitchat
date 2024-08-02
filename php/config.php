@@ -1,9 +1,12 @@
 <?php
+$host = "localhost";
+$user = "root"; // or your MySQL username
+$password = ""; // or your MySQL password
+$database = "chat";
 
-$conn = mysqli_connect("localhost", "root", "", "chat");
-if(!$conn) {
-    echo "Database connection fail!" . mysqli_connect_error();
+$conn = mysqli_connect($host, $user, $password, $database);
 
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
 }
-
 ?>

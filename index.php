@@ -8,9 +8,9 @@
 <body>
     <div class="wrapper">
         <section class="form signup">
-         <header>iChat-Realtime Chat Application <i class="fas fa-dove"></i></header>
+         <header> Chitchat <i class="fas fa-dove"></i></header>
          <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
-             <div class="error-txt"></div>
+             <div class="error-text"></div>
              <div class="name-details">
              <div class="field input">
                  <label>First Name</label>
