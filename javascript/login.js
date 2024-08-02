@@ -1,3 +1,4 @@
+//login
 const form = document.querySelector(".login form"),
 continueBtn = form.querySelector(".button input"),
 errorText = form.querySelector(".error-text");

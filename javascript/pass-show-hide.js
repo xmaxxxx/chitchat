@@ -1,3 +1,4 @@
+//pass
 const pswrdfield= document.querySelector(".form .field input[type='password']"),
 togglebtn= document.querySelector(".form .field i");
 
